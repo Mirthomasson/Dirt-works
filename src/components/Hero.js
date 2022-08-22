@@ -20,7 +20,7 @@ function Hero() {
         </Button>
       </div>
     </div>
-  )
+  );
 }
 
 export default Hero
