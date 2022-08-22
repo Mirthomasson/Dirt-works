@@ -6,7 +6,7 @@ import './Hero.css';
 function Hero() {
   return (
     <div className='hero-container'>
-      <video src="./hero-vid.mp4" autoPlay loop muted />
+      <video src='../../public/videos/hero-vid.mp4' autoPlay loop muted />
       <h1>Demolition & Excavation Company</h1>
       <p>Serving Amherst, Va and surrouding areas</p>
       <div className="hero-btns">
