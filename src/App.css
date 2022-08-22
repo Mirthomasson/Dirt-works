@@ -8,7 +8,7 @@
 .home,
 .services,
 .products,
-.sign-up {
+.free-estimate {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .services {
-  background-image: url('../public/logo192.png');
+  background-image: url('../public/images/');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@
   font-size: 100px;
 }
 
-.sign-up {
+.free-estimate {
   background-image: url('../public/logo192.png');
   background-position: center;
   background-size: cover;

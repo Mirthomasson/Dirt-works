@@ -27,6 +27,12 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    transition: all 0.3s ease-out;
+  }
+
+  .navbar-logo:hover {
+    color: rgb(246, 100, 16);
+    transition: all 0.3s ease-out;
   }
   
   .fa-typo3 {
@@ -59,7 +65,7 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid rgb(246, 100, 16);
     transition: all 0.2s ease-out;
   }
   
@@ -115,8 +121,8 @@
     }
   
     .nav-links:hover {
-      background-color: #fff;
-      color: #242424;
+      background-color: rgb(246, 100, 16);
+      color: #fff;
       border-radius: 0;
     }
   
@@ -153,12 +159,12 @@
       background-color: transparent;
       color: #fff;
       padding: 14px 20px;
-      border: 1px solid #fff;
+      border: 1px solid rgb(246, 100, 16);
       transition: all 0.3s ease-out;
     }
   
     .nav-links-mobile:hover {
-      background: #fff;
+      background: rgb(246, 100, 16);
       color: #242424;
       transition: 250ms;
     }
