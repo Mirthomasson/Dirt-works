@@ -7,7 +7,8 @@
 
 .home,
 .services,
-.free-estimate {
+.free-estimate,
+.contact {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -33,10 +34,11 @@
   font-size: 100px;
 }
 
-.est-vid {
-    object-fit: cover;
-    width: 20em;
-    height: 20em;
-    position: fixed;
-    z-index: -1;
+.contact {
+  background-image: url('./images/contact-bg.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
