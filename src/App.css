@@ -7,7 +7,6 @@
 
 .home,
 .services,
-.products,
 .free-estimate {
   display: flex;
   height: 90vh;
@@ -17,7 +16,7 @@
 }
 
 .services {
-  background-image: url('../public/images/');
+  background-image: url('../public/images/services-bg.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,17 +24,8 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url('../public/logo192.png');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
 .free-estimate {
-  background-image: url('../public/logo192.png');
+  background-image: url('../public/images/free-est-bg.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
