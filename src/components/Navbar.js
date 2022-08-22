@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
@@ -56,14 +57,14 @@ function Navbar() {
             </Link> 
           </li>
           <li className='nav-item social-icon'>
-            <Link
-              to='https://www.facebook.com/Dirt-Works-180241862580740/'
+            <a
+              href={"https://www.facebook.com/Dirt-Works-180241862580740/"}
               className='nav-links'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-square' />
-            </Link>
+            </a>
           </li>
           <li>
               <Link
