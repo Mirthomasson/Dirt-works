@@ -29,7 +29,7 @@
     font-size: 20px;
 }
 
-.btn--larger {
+.btn--large {
     padding: 12px 26px;
     font-size: 20px;
 }
@@ -37,5 +37,6 @@
 .btn--medium:hover, .btn--large:hover {
     background: rgb(246, 100, 16);
     color: #fff;
+    border: 1px solid rgb(246, 100, 16);
     transition: all 0.3s ease-out;
 }

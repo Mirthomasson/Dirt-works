@@ -55,6 +55,16 @@ function Navbar() {
               CONTACT
             </Link> 
           </li>
+          <li className='nav-item social-icon'>
+            <Link
+              to='https://www.facebook.com/Dirt-Works-180241862580740/'
+              className='nav-links'
+              target='_blank'
+              aria-label='Facebook'
+            >
+              <i class='fab fa-facebook-square' />
+            </Link>
+          </li>
           <li>
               <Link
                 to='/free-estimate'

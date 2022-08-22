@@ -2,11 +2,12 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import heroVid from'../hero-vid.mp4'
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src="../hero-vid.mp4" autoPlay loop muted />
+      <video src={heroVid} autoPlay loop muted />
       <h1>Demolition & Excavation Company</h1>
       <p>Serving Amherst, Va and surrouding areas</p>
       <div className="hero-btns">

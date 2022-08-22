@@ -1,6 +1,9 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
+import proj1 from '../images/project-1.jpeg';
+import proj2 from '../images/project-2.jpeg';
+import proj3 from '../images/project-3.jpeg';
 
 function Cards() {
   return (
@@ -10,19 +13,19 @@ function Cards() {
         <div className='cards__wrapper'>
             <ul className='cards__items'>
                 <CardItem 
-                src="/dirt-works/public/images/project-1.jpeg"
+                src={proj1}
                 text="Building a pond"
                 label='Pond'
                 path='/services'
                 />
                 <CardItem 
-                src="/dirt-works/public/images/project-2.jpeg"
+                src={proj2}
                 text="Digging a trench for creekbed"
                 label='Creek'
                 path='/services'
                 />
                 <CardItem 
-                src="/dirt-works/public/images/project-3.jpeg"
+                src={proj3}
                 text="Running cable under driveway for power"
                 label='Underground cable'
                 path='/services'

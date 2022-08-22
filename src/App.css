@@ -16,7 +16,7 @@
 }
 
 .services {
-  background-image: url('../public/images/services-bg.jpeg');
+  background-image: url('./images/services-bg.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,10 +25,18 @@
 }
 
 .free-estimate {
-  background-image: url('../public/images/free-est-bg.jpeg');
+  background-image: url('./images/free-est-bg.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.est-vid {
+    object-fit: cover;
+    width: 20em;
+    height: 20em;
+    position: fixed;
+    z-index: -1;
 }
