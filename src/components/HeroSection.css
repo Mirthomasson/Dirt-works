@@ -58,8 +58,8 @@
       margin-top: -150px;
     }
 
-    .hero-container {
-      object-fit: cover;
+    .hero-bg {
+      height: 100vh;
     }
   }
   
