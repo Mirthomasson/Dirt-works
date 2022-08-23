@@ -57,6 +57,10 @@
       font-size: 70px;
       margin-top: -150px;
     }
+
+    .hero-bg {
+      position: absolute;
+    }
   }
   
   @media screen and (max-width: 768px) {
