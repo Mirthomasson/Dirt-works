@@ -58,8 +58,8 @@
       margin-top: -150px;
     }
 
-    .hero-bg {
-      position: absolute;
+    .hero-container {
+      object-fit: cover;
     }
   }
   
