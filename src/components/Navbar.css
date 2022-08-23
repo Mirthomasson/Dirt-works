@@ -31,7 +31,7 @@
   }
 
   .navbar-logo:hover {
-    color: rgb(246, 100, 16);
+    color: #eb603f;
     transition: all 0.3s ease-out;
   }
   
@@ -69,13 +69,13 @@
   }
 
   .fab.fa-facebook-square:hover {
-    color: rgb(246, 100, 16);
+    color: #eb603f;
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid rgb(246, 100, 16);
+    border-bottom: 4px solid #eb603f;
     transition: all 0.2s ease-out;
-    color: rgb(246, 100, 16);
+    color: #eb603f;
   }
   
   .fa-bars {
@@ -130,7 +130,7 @@
     }
   
     .nav-links:hover {
-      background-color: rgb(246, 100, 16);
+      background-color: #eb603f;
       color: #fff;
       border-radius: 0;
     }
@@ -168,12 +168,12 @@
       background-color: transparent;
       color: #fff;
       padding: 14px 20px;
-      border: 1px solid rgb(246, 100, 16);
+      border: 1px solid #eb603f;
       transition: all 0.3s ease-out;
     }
   
     .nav-links-mobile:hover {
-      background: rgb(246, 100, 16);
+      background: #eb603f;
       color: #242424;
       transition: 250ms;
     }
