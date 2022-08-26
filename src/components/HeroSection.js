@@ -19,7 +19,7 @@ function HeroSection() {
         </Button>
         <Button className='btns' buttonStyle='btn--primary'
         buttonSize='btn--large'>
-            Watch Video <i className='far fa-play-circle' />
+            Watch Video<i className='far fa-play-circle' />
         </Button>
       </div>
     </div>
