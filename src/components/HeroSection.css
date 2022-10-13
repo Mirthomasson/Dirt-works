@@ -82,3 +82,16 @@
       width: 100%;
     }
   }
+
+  .notice {
+    animation: blinker 2.5s linear infinite;
+    background-color: RED;
+    padding: 1em;
+    border-radius: 5px;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

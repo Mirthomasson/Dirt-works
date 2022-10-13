@@ -12,6 +12,7 @@ function HeroSection() {
       {/* <video src={heroVid} autoPlay loop muted /> */}
       <h1>Demolition & Excavation Company</h1>
       <p>Serving Amherst, Va and surrouding areas</p>
+      <p class="notice">SITE STILL UNDER CONSTRUCTION</p>
       <div className="hero-btns">
         <Button className='btns' buttonStyle='btn--outline'
         buttonSize='btn--large'>
