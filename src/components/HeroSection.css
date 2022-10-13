@@ -85,7 +85,7 @@
 
   .notice {
     animation: blinker 2.5s linear infinite;
-    background-color: RED;
+    background-color: red;
     padding: 1em;
     border-radius: 5px;
   }
